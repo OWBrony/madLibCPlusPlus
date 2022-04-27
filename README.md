@@ -20,7 +20,7 @@ This is a Mad Lib program which uses the C++ language. This is to show a compete
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
+* [W3Schools](https://www.w3schools.com/CPP/default.asp)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
