@@ -30,15 +30,76 @@ void ask_Which() {
         }
     }
 }
-
 void run_First_Madlib() {
+    // get the words from the user
+    string verb1 = "";
+    string verb2 = "";
+    string adjective1 = "";
+    string adjective2 = "";
+    string noun1 = "";
+    string noun2 = "";
+    cout << "verb: ";
+    cin >> verb1;
+    cout << "\nanother verb: ";
+    cin >> verb2;
+    cout << "\nadjective: ";
+    cin >> adjective1;
+    cout << "\nanother adjective: ";
+    cin >> adjective2;
+    cout << "\nnoun: ";
+    cin >> noun1;
+    cout << "\nanother noun: ";
+    cin >> noun2;
+    // stick the words into an array
+    string words[6] = {verb1,verb2,adjective1,adjective2,noun1,noun2};
+    cout << "\n There once was a " << words[4] << "who liked to " << words[0] << ".\n";
 
 }
 
 void run_Second_Mablib() {
-
+    // get the words from the user
+    string verb1 = "";
+    string verb2 = "";
+    string adjective1 = "";
+    string adjective2 = "";
+    string noun1 = "";
+    string noun2 = "";
+    cout << "verb: ";
+    cin >> verb1;
+    cout << "\nanother verb: ";
+    cin >> verb2;
+    cout << "\nadjective: ";
+    cin >> adjective1;
+    cout << "\nanother adjective: ";
+    cin >> adjective2;
+    cout << "\nnoun: ";
+    cin >> noun1;
+    cout << "\nanother noun: ";
+    cin >> noun2;
+    // stick the words into an array
+    string words[6] = {verb1,verb2,adjective1,adjective2,noun1,noun2};
 }
 
 void run_Third_Madlib() {
-
+    // get the words from the user
+    string verb1 = "";
+    string verb2 = "";
+    string adjective1 = "";
+    string adjective2 = "";
+    string noun1 = "";
+    string noun2 = "";
+    cout << "verb: ";
+    cin >> verb1;
+    cout << "\nanother verb: ";
+    cin >> verb2;
+    cout << "\nadjective: ";
+    cin >> adjective1;
+    cout << "\nanother adjective: ";
+    cin >> adjective2;
+    cout << "\nnoun: ";
+    cin >> noun1;
+    cout << "\nanother noun: ";
+    cin >> noun2;
+    // stick the words into an array
+    string words[6] = {verb1,verb2,adjective1,adjective2,noun1,noun2};
 }
