@@ -18,7 +18,7 @@ void run_First_Madlib() {
     cout << "The " << words[4] << " would " << words[0] << " whenever it could.\n";
     cout << "One day it " << words[1] << " a " << words[2] << " " << words[5] << ".\n";
     cout << "The " << words[5] << " turned and " << words[1] << " the " << words[4];
-    cout << "until it was " << words[3] <<".\n";
+    cout << " until it was " << words[3] <<".\n";
 }
 
 void run_Second_Mablib() {
