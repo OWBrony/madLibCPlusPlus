@@ -5,81 +5,42 @@ using namespace std;
 
 void run_First_Madlib() {
     // get the words from the user
-    string verb1 = "";
-    string verb2 = "";
-    string adjective1 = "";
-    string adjective2 = "";
-    string noun1 = "";
-    string noun2 = "";
-    cout << "\nverb (present): ";
-    cin >> verb1;
-    cout << "\nverb (past tense): ";
-    cin >> verb2;
-    cout << "\nadjective: ";
-    cin >> adjective1;
-    cout << "\nanother adjective: ";
-    cin >> adjective2;
-    cout << "\nnoun: ";
-    cin >> noun1;
-    cout << "\nnoun (animal): ";
-    cin >> noun2;
+
+    string questions[6] = {"verb (present): ","verb (past): ","adjective: ","another adjective: ","noun: ","noun (animal): "};
+    string words[6] = {};
     // stick the words into an array
-    string words[6] = {verb1,verb2,adjective1,adjective2,noun1,noun2};
+    for (int i = 0; i <= 5; i++) {
+        cout << "\n" << questions[i];
+        cin >> words[i];
+    }
     // display the story while pulling the words from the array
     cout << "\nThere once was a " << words[4] << " who liked to " << words[0] << ".\n";
     cout << "The " << words[4] << " would " << words[0] << " whenever it could.\n";
     cout << "One day it " << words[1] << " a " << words[2] << " " << words[5] << ".\n";
     cout << "The " << words[5] << " turned and " << words[1] << " the " << words[4];
     cout << "until it was " << words[3] <<".\n";
-
 }
 
 void run_Second_Mablib() {
     // get the words from the user
-    string verb1 = "";
-    string verb2 = "";
-    string adjective1 = "";
-    string adjective2 = "";
-    string noun1 = "";
-    string noun2 = "";
-    cout << "verb: ";
-    cin >> verb1;
-    cout << "\nanother verb: ";
-    cin >> verb2;
-    cout << "\nadjective: ";
-    cin >> adjective1;
-    cout << "\nanother adjective: ";
-    cin >> adjective2;
-    cout << "\nnoun: ";
-    cin >> noun1;
-    cout << "\nanother noun: ";
-    cin >> noun2;
+    string questions[6] = {"verb (present): ","verb (past): ","adjective: ","another adjective: ","noun: ","noun (animal): "};
+    string words[6] = {};
     // stick the words into an array
-    string words[6] = {verb1,verb2,adjective1,adjective2,noun1,noun2};
+    for (int i = 0; i <= 5; i++) {
+        cout << "\n" << questions[i];
+        cin >> words[i];
+    }
 }
 
 void run_Third_Madlib() {
     // get the words from the user
-    string verb1 = "";
-    string verb2 = "";
-    string adjective1 = "";
-    string adjective2 = "";
-    string noun1 = "";
-    string noun2 = "";
-    cout << "verb: ";
-    cin >> verb1;
-    cout << "\nanother verb: ";
-    cin >> verb2;
-    cout << "\nadjective: ";
-    cin >> adjective1;
-    cout << "\nanother adjective: ";
-    cin >> adjective2;
-    cout << "\nnoun: ";
-    cin >> noun1;
-    cout << "\nanother noun: ";
-    cin >> noun2;
+    string questions[6] = {"verb (present): ","verb (past): ","adjective: ","another adjective: ","noun: ","noun (animal): "};
+    string words[6] = {};
     // stick the words into an array
-    string words[6] = {verb1,verb2,adjective1,adjective2,noun1,noun2};
+    for (int i = 0; i <= 5; i++) {
+        cout << "\n" << questions[i];
+        cin >> words[i];
+    }
 }
 
 void ask_Which() {
@@ -99,8 +60,8 @@ void ask_Which() {
         else if (selector == 3) {
             run_Third_Madlib();
         }
-        else if (selector == 4){
-            cout << "Goodbye! I love you."
+        else if (selector == 4) {
+            cout << "Goodbye! I love you.";
         }
         else {
             cout << "\nThat is not a valid number.\n";
