@@ -34,16 +34,16 @@ void run_Second_Mablib() {
     cout << "On a " << words[2] << " day a " << words[4] << " went on a " << words[0] << ".\n";
     cout << "He often went a " << words[0] << " because he was very " << words[3] << ".\n";
     cout << "But no matter how often he went on a " << words[0] << " he never changed.\n";
-    cout << "On this " << words[2] << "day he took a different path.\n";
+    cout << "On this " << words[2] << " day he took a different path.\n";
     cout << "The " << words[4] << " came across a " << words[5] << " who was " << words[1] << ".\n";
-    cout << "The " << words[5] << " invited the " << words[4] << "to join them.\n";
+    cout << "The " << words[5] << " invited the " << words[4] << " to join them.\n";
     cout << "The " << words[4] << " joined the " << words[5] << " in " << words[1];
     cout << " and was changed forever.\n";
 }
 
 void run_Third_Madlib() {
     // get the words from the user
-    string questions[6] = {"name: ", "animal: ", "adjective: ", "increment of time: ", "another adjective: ",
+    string questions[6] = {"name: ", "animal (plural): ", "adjective: ", "increment of time (plural): ", "another adjective: ",
         "body part: "};
     string words[6] = {};
     // stick the words into an array
@@ -51,7 +51,7 @@ void run_Third_Madlib() {
         cout << "\n" << questions[i];
         cin >> words[i];
     }
-    cout << words[4] << " was at the beach.\n";
+    cout << words[0] << " was at the beach.\n";
     cout << "He enjoyed watching the " << words[1] << " as he laid on his chair.\n";
     cout << "He fell "<< words[2] << " for a few " << words[3] <<".\n"; 
     cout << "When he woke up he was "<< words[4] << "\n";
@@ -64,9 +64,9 @@ void ask_Which() {
     int selector = 0;
     // This is to make sure that the user gets into a Mad Lib.
     while (selector != 4) {
+        cout << "\n1. Doing things 2. Changing\n";
+        cout << "3. Beach        4. quit\n";
         cout << "Which Mad Lib do you want? ";
-        cout << "1. Doing things 2. Changing\n";
-        cout << "3. Beach 4. quit";
         cin >> selector;
         if (selector == 1) {
             run_First_Madlib();
