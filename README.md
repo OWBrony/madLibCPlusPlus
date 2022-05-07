@@ -1,31 +1,23 @@
 # Overview
 
-This is a Mad Lib program which uses the C++ language. This is to show a competent understanding of the language
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description the software that you wrote to demonstrate the C++ language.}
-
-{Describe your purpose for writing this software.}
+This is a Mad Lib program which uses the C++ language. This is to show a competent understanding of the language and as a personal exercise in learning the C++
+language.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Mad Lib C++ Demo Video](https://youtu.be/gYU8Kb3pmfI)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
-
+This program was made entirely within Visual Studio Code.
+The language that was used to construct this was C++. Standard libraries of iostream
+and string were used.
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [W3Schools](https://www.w3schools.com/CPP/default.asp)
-* [Web Site Name](http://url.link.goes.here)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Allow the use of multi-word answers in the first Mad Lib (example: baluga whale).
+* I need to try to get this program to run with classes.
+* I might one day make this run outside the terminal with a graphical display.
